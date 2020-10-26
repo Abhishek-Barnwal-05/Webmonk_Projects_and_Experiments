@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ass-1</title>
+    <link rel="stylesheet" href="./Ass-1.css">
+    <h1 class="head1">Survey Form</h1>
+</head>
+<body >
+    <div>
+        
+            <form class="f">
+                <fieldset>
+                    <legend class="left"><strong>Let us know how we can improve freeCodeCamp</strong></legend>
+                <table class="f">
+                <tr class="right">
+                    <td><strong>*Name:</strong></td> 
+                    <td class="left"><input name="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td><strong>*Email:</strong></td> 
+                    <td class="left"><input type="email" placeholder="Enter your mail" name="mail" required></td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td><strong>*Age:</strong></td> 
+                    <td class="left"><input type="number" placeholder="Age" name="age" min="10" max="100" required></td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td class="top"><strong>Which option best describes your current<br>role:</strong></td> 
+                    <td class="left">
+                        <select>
+                            <option value="">School Student</option>
+                            <option value="">Employee</option>
+                            <option value="">College Student</option>
+                        </select>
+                     </td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td class="top"><strong>*How likely is that you would recommend <br> freeCodeCamp to a friend?</strong></td>
+                    <td class="left">
+                    <strong><input type="radio" name="recommend">Definitely <br>
+                        <input type="radio" name="recommend">Maybe <br>
+                        <input type="radio" name="recommend">Not sure</strong> 
+                    </td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td><strong>What do you like most in FCC:</strong></td> 
+                    <td class="left">
+                        <select >
+                            <option value="">Responsive Web Design</option>
+                            <option value="">JavaScript Algorithms and Data Structures</option>
+                            <option value="">Data Visualization</option>
+                        </select>
+                     </td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td class="top"><strong>Things that should be improved in future <br>(check all that apply):</strong></td> 
+                    <td class="left">
+                    <strong><input type="checkbox">Front-end Projects <br>
+                        <input type="checkbox">Back-end Projects <br>
+                        <input type="checkbox">Data Visualization <br>
+                        <input type="checkbox">Challenges <br>
+                        <input type="checkbox">Open Source Community <br>
+                        <input type="checkbox">Gitter help rooms <br>
+                        <input type="checkbox">Videos <br>
+                        <input type="checkbox">City Meetups <br>
+                        <input type="checkbox">Wiki <br>
+                        <input type="checkbox">Forum <br>
+                        <input type="checkbox">Additional Courses</strong>
+                     </td>
+                </tr>
+                <tr><td class="gap"></tr>
+                <tr class="right">
+                    <td class="top"><strong>Any Comments or Suggestion?</strong></td> 
+                    <td class="left"><textarea class="comment" placeholder ="Enter your comment here..." name=""></textarea></td>
+                </tr>
+                
+                </table>
+            </form>
+            <p><strong><input type="submit" class="submit" placeholder="SUBMIT"></strong></p>
+        </fieldset>
+    </div>
+</body>
+</html>
